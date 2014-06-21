@@ -1,27 +1,29 @@
 /* Import Fonts */
-@import url(http://fonts.googleapis.com/css?family=Coustard|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700|Bitter|Roboto:300);
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	font-weight:400;
+	text-shadow: 0px 0px 15px rgba(0,0,0,255);
 	-webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-	color: #777;
+	color: #fff;
 	background: #000;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Coustard', serif;
+	font-family: 'Oswald', sans-serif;
 	color:#fff;
 	font-weight: normal;
 	letter-spacing: 1px;
 }
 h1{font-size: 63px; line-height: 70px; padding: 0; margin: 0;}
-h5{font-size: 28px; line-height: 35px; padding: 0; margin: 0; color: #b7b7b7;}
+h5{font-size: 28px; font-family: 'Bitter', serif; line-height: 35px; padding: 0; margin: 0; color: #b7b7b7;}
 
 a {
 	color: #b7b7b7;
+	text-shadow: 0px 0px 15px rgba(0,0,0,255);
 	text-decoration:none;
 	font-weight: normal;
 }
@@ -50,6 +52,7 @@ a:hover {text-decoration:underline;}
 	float:left;
 	margin:40px;
 	position:absolute;
+
 	top:200px;
 	width:600px;
 	z-index:9999;
@@ -57,7 +60,7 @@ a:hover {text-decoration:underline;}
 }
 
 #logo {
-	font-family: 'Coustard', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 49px;
 	bottom:40px;
 	height:auto;
